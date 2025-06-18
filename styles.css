@@ -1,0 +1,106 @@
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 30px 0;
+    background: linear-gradient(135deg, #2c5e1a, #8b6b3d);
+    color: white;
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.subtitle {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Conteúdo principal */
+.content-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-left: 5px solid #8b6b3d;
+}
+
+h2 {
+    color: #2c5e1a;
+    margin-top: 0;
+    border-bottom: 2px dashed #8b6b3d;
+    padding-bottom: 10px;
+}
+
+/* Elementos decorativos */
+.divider {
+    height: 3px;
+    background: linear-gradient(to right, #2c5e1a, #8b6b3d, #2c5e1a);
+    margin: 30px 0;
+    border-radius: 3px;
+}
+
+.highlight {
+    background-color: #f8f4e6;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 3px solid #8b6b3d;
+    font-style: italic;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c5e1a;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    margin-top: 40px;
+}
+
+.agrinho {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #f8d56b;
+}
+
+/* Efeitos de lista */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+li:before {
+    content: "•";
+    color: #8b6b3d;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
